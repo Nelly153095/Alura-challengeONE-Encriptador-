@@ -1,0 +1,38 @@
+<!<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge I: Encriptador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="sup">
+    <h1 class="titulo">Encriptador de Texto</h1>
+  </header>
+  
+  <main class="main">
+    <section class="form box">
+      <form>
+        <label for="input-texto" class="lab">Solo letras minúsculas, sin acento:</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aquí" required>
+        <input class="btn" type="button" value="Encriptar" id="btn-encriptar">
+        <input class="btn" type="button" value="Desencriptar" id="btn-desencriptar">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <label for="msg" class="lab">Mensaje Encriptado:</label>
+      <textarea class="text-input" id="msg" rows="4" readonly></textarea>
+      <input class="btn" type="button" value="Copiar" id="btn-copy">
+    </section>
+  </main>
+  
+  <footer>   
+    <p class="pie">Grupo 7, 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
